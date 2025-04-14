@@ -2,7 +2,8 @@ body {
     margin: 0;  
     font-family: 'Arial', sans-serif;  
     background-color: #f3f4f6;  
-}  
+}
+  
 
 .header {  
       margin-left: 200px;
@@ -11,7 +12,7 @@ body {
 }  
 
 .hero {  
-    background-image: url('/png/ban-image.png');
+    background-image: url('/index/png/ban-image.png');
     display: flex;
     width: 1920px;
     height: 646px;
@@ -43,10 +44,7 @@ body {
     font-size: 1.2em;  
 }  
 
-.username {  
-    font-weight: bold;  
-    color: #ffeb3b;  
-}  
+  
 
 main {  
     padding: 20px;  
@@ -57,7 +55,12 @@ h3 {
     font-size: 2em;  
     margin-bottom: 20px;  
 }  
-
+.weat
+{
+    margin-left: 250px;
+    display: flex;
+    justify-content: flex-start;
+}
 .news {  
     display: flex;
        
@@ -117,6 +120,7 @@ h4 {
         flex-direction: row;
         justify-content: flex-end;
         gap: 16px;
+        margin-right: 200px;
 }
 .pagq
 {
@@ -133,8 +137,8 @@ h4 {
 
 .pag{
     display: flex;
-        width: 56px;
-        height: 54px;
+        width: 54px;
+        height: 52px;
         
         border-radius: 50%;
         justify-content: center;
@@ -144,6 +148,31 @@ h4 {
         background-color:  transparent;
         border: 2px solid  #841844; 
         
+}
+.pagd{
+    display: flex;
+        width: 104px;
+        height: 52px;
+        
+        border-radius: 50px;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color:  #841844;
+        background-color:  transparent;
+        border: 2px solid  #841844; 
+        
+}
+.line
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #6C6E7B;
+    width: 1420px;
+    height: 1px;
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
 }
 
 footer {  
